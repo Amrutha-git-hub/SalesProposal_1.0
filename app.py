@@ -12,12 +12,13 @@ from langchain.prompts import PromptTemplate
  # visibility: hidden;
 #}
 #"""
+#st.markdown(hide_github_icon, unsafe_allow_html=True)
 
-MainMenu (
-  visibility: hidden;
-)
+#MainMenu (
+ # visibility= hidden;
+#)
 
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 
 # Your app code goes here
 # # Api key setup
