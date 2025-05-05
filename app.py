@@ -7,11 +7,16 @@ from langchain_google_genai import GoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 
 ###Add custom CSS to hide the GitHub icon
-hide_github_icon = """
-GithubIcon {
+#hide_github_icon = """
+#GithubIcon {
+ # visibility: hidden;
+#}
+#"""
+
+MainMenu {
   visibility: hidden;
 }
-"""
+
 st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 # Your app code goes here
